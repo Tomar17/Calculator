@@ -1,0 +1,127 @@
+body{
+    font-family: fantasy;
+    font-size: 2rem;
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 1px solid black;
+    justify-content: center;
+    margin-top: 90px;
+    padding: 10px;
+
+}
+
+.historyDiv{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.inClear{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    padding-bottom: 0px;
+    height:76px ;
+    
+    
+    
+
+}
+
+.inClear button{
+    height: 76px;
+    margin-top: 30px;
+    font-weight: 900;
+    font-family: fantasy;
+    font-size: 3rem;
+}
+
+.inClear p{
+    border: 1px solid black;
+    width: 360px;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:right;
+    height: 53px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.449);
+    border-radius: 10px;
+    padding-right: 10px;
+    background-color: aliceblue;
+    font-family: fantasy;
+    
+    
+}
+
+.main{
+    border: 10px solid black;
+    padding-top: 50px;
+    /* padding: 10px; */
+    
+    padding-bottom: 30px;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.449);
+    background: linear-gradient(#e66465, #9198e5);
+    
+}
+
+.main div{
+    margin-bottom: 5px;
+}
+
+.main button{
+    width: 120px;
+    font-family: fantasy;
+    font-size: 2rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.449);
+    border-radius: 10px;
+
+    
+}
+
+.main button:hover{
+    width: 120px;
+    font-family: fantasy;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.449);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    
+    
+}
+
+.signs:hover{
+    background-color: rgba(89, 216, 34, 0.527) !important;
+}
+
+#equalBtn{
+    width: 246px;
+    
+}
+#equalBtn:hover{
+    width: 246px;
+    background-color: rgb(35, 207, 109);
+}
+
+
+#clearBtn{
+    width: 500px;
+}
+#clearBtn:hover{
+    background-color: #e66465;
+}
+
+
+#delBtn:hover{
+    background-color: #e66465;
+}
